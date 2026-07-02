@@ -1,0 +1,5 @@
+﻿Dataset/
+.ipynb_checkpoints/
+*.gdf
+*.fif
+__pycache__/
