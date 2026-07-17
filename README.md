@@ -14,6 +14,12 @@ Preprocessed versions of the dataset (already epoched and labeled) are available
 
 ## Pipeline
 
+**Deep4Net pipeline** (includes Euclidean Alignment):
+![Deep4Net pipeline](pipeline/deep4net_pipeline.png)
+
+**ShallowFBCSPNet pipeline** (no Euclidean Alignment):
+![ShallowFBCSPNet pipeline](pipeline/shallowfbcspnet_pipeline.png)
+
 Two matched pipelines are built from the same trials; only the input representation differs between them.
 
 1. **Load** raw `.gdf` files (MNE), rename generic channel labels to standard 10-20 names, apply standard 10-20 montage
@@ -104,6 +110,9 @@ Full per-subject results (including Cohen's κ) are in [`results/per_subject_acc
 │   ├── deep4net_raw.ipynb                 # Deep4Net training, no-preprocessing track
 │   ├── shallowfbcsp_preprocessed.ipynb    # ShallowFBCSPNet training, preprocessed track
 │   └── shallowfbcsp_raw.ipynb             # ShallowFBCSPNet training, no-preprocessing track
+├── pipeline/
+│   ├── deep4net_pipeline.png
+│   └── shallowfbcspnet_pipeline.png
 ├── charts/
 │   ├── deep4net_raw_vs_preprocessed.png
 │   ├── shallowfbcspnet_raw_vs_preprocessed.png
