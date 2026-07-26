@@ -124,7 +124,8 @@ Full per-subject results (including Cohen's κ) are in [`results/per_subject_acc
 │   ├── per_subject_accuracy.csv
 │   └── model_results.csv
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── paper.pdf
 ```
 
 ## Requirements
